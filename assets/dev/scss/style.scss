@@ -1,0 +1,239 @@
+$font-stack-secondary: Lato;
+$primary-color: #414f6b;
+$font-stack-sp: 'Oswald', sans-serif;
+
+
+.nav-component {
+  font-family: $font-stack-secondary;
+  font-style: italic;
+  margin: 17px 0;
+  font-size: 14px;
+}
+
+.nav-components {
+  margin: 17px 0;
+}
+
+.nav-text-first {
+ color: white;
+ border-bottom: 2px solid white;
+}
+
+.logo-margin {
+  margin-right: 10px;
+}
+
+.nav-text-second{
+  color: $primary-color;
+  border-bottom: 2px solid $primary-color;
+}
+
+// header image
+.layer-image {
+  background: url('../../images/Image.png') 40% 0% / cover;
+  height: 63em;
+}
+
+
+.background-img-2 {
+  background: url('../../images/peak.png') 40% 37% / cover;
+  height: 57em;
+  position: relative;
+  margin-top: 79px;
+}
+
+.custom-set{
+  color: $primary-color;
+  font-family: $font-stack-sp;
+  font-weight: 900;
+}
+
+.custom-text-1 {
+  font-size: 11.3em;
+  opacity: 0.5;
+  letter-spacing: -0.05em;
+}
+
+.custom-heading{
+  font-size: 3em;
+  position: absolute;
+  margin: 2.5em 0 0 -0.4em;
+}
+
+.lorem-text {
+  margin-top: 2em;
+  font-family: $font-stack-secondary;
+  color: #000000;
+}
+
+.wrapper-carousel {
+  // background: url('../../images/Image_carousel.png') 40% 50% / cover;
+  // margin-top: 20.3em;
+  background-color: rgba(65, 79, 107, 0.7);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.carousel{
+  margin: 37px auto;
+  // height: 195px;
+}
+
+.lorem-text-2 {
+  font-family: $font-stack-secondary;
+  color: #000000;
+}
+
+
+.jumbotron {
+  margin-top: 1em;
+  background: transparent;
+}
+
+.mountian-nav {
+  height: 40px;
+  background-color: $primary-color;
+}
+
+.nav-component-2 {
+  font-family: $font-stack-sp;
+  font-style: bold;
+  padding: 4px 0 7px;
+  font-size: 21px;
+}
+
+.nav-text-ani {
+  color: #b0b4be;
+  border-bottom: 2px solid #b0b4be;
+}
+
+.nav-text-second {
+  cursor: pointer;
+}
+
+.nav-component-2:hover, .active-comp {
+  background-color: #b0b4be;
+  cursor: pointer;
+}
+
+.nav-text-ani:hover {
+  color: $primary-color;
+  border-bottom: 2px solid $primary-color;
+}
+
+.tab1 {
+  background: url('../../images/tab1.png') 40% 80% / cover;
+  height: 47em;
+}
+
+.tab2 {
+  background: url('../../images/tab2.png') 40% 80% / cover;
+  height: 47em;
+}
+
+.tab-info {
+  margin: 7em 0 0 8em;
+  background-color: rgba(255,255,255,0.7);;
+  width: 23em;
+  height: 19em;
+}
+
+.tab-head {
+  font-size: 42.7px;
+  font-family: $font-stack-sp;
+  color: $primary-color
+}
+
+.tab-dates {
+  font-family: $font-stack-secondary;
+}
+
+.tab-hide {
+  display: none;
+}
+
+.active-nav {
+  color: $primary-color;
+  border-bottom: 2px solid $primary-color;
+}
+
+footer {
+  height: 87px;
+  background-color: $primary-color;
+}
+
+
+.footer-rights{
+  color: #63769d;
+}
+
+.footer-logo {
+  background-color: #63769d;
+  opacity: 0.5;
+  // position: relative;
+}
+
+
+.layer-nav {
+  background-color: white;
+  z-index: 2;
+  margin-bottom: -79px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.affix {
+  top: 0;
+  width: 100%;
+}
+
+// .navbar-default, .navbar-toggle {
+//   background-color: transparent;
+//   border: none;
+// }
+//
+// .icon-bar {
+//   margin: 7px 0;
+// }
+
+
+@media screen and (max-width: 480px) {
+  .custom-heading{
+    font-size: 3em;
+    position: absolute;
+    margin: -2.8em 0 0 3.3em;
+  }
+
+  .lorem-text, .jumbotron {
+    margin-top: 0;
+  }
+
+  .tab-info {
+    margin: 7em auto 0 ;}
+
+  footer {
+    height: 100%;
+    text-align: center;
+  }
+
+  .nav-component{
+    font-size: 12px;
+  }
+
+  .footer-rights {
+    margin-top: 3em;
+  }
+
+  .nav-affix {
+    margin-top: -1em;
+  }
+
+  .layer-image {
+    height: 53em;
+  }
+
+  .logo-margin {
+    margin-right: 0;
+  }
+}
