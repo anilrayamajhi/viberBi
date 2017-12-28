@@ -140,6 +140,16 @@ footer {
   top: 0;
   width: 100%; }
 
+a:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 991px) {
+  .hide-nav{
+    display: none;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .custom-heading {
     font-size: 3em;
