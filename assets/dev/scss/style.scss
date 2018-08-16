@@ -4,9 +4,10 @@ $font-stack-sp: 'Oswald', sans-serif;
 
 
 .nav-component {
-  font-family: $font-stack-secondary;
-  font-style: italic;
-  margin: 17px 0;
+  // font-family: $font-stack-secondary;
+  // font-style: italic;
+  font-weight: 500;
+  margin: 21px 0;
   font-size: 14px;
 }
 
@@ -16,7 +17,6 @@ $font-stack-sp: 'Oswald', sans-serif;
 
 .nav-text-first {
  color: white;
- border-bottom: 2px solid white;
 }
 
 .logo-margin {
@@ -25,7 +25,6 @@ $font-stack-sp: 'Oswald', sans-serif;
 
 .nav-text-second{
   color: $primary-color;
-  border-bottom: 2px solid $primary-color;
 }
 
 // header image
@@ -137,7 +136,7 @@ $font-stack-sp: 'Oswald', sans-serif;
   margin: 7em 0 0 8em;
   background-color: rgba(255,255,255,0.7);;
   width: 23em;
-  height: 19em;
+  padding-bottom: 1.5em;
 }
 
 .tab-head {
