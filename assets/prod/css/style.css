@@ -1,22 +1,19 @@
 .nav-component {
-  font-family: Lato;
-  font-style: italic;
-  margin: 17px 0;
+  font-weight: 500;
+  margin: 21px 0;
   font-size: 14px; }
 
 .nav-components {
   margin: 17px 0; }
 
 .nav-text-first {
-  color: white;
-  border-bottom: 2px solid white; }
+  color: white; }
 
 .logo-margin {
   margin-right: 10px; }
 
 .nav-text-second {
-  color: #414f6b;
-  border-bottom: 2px solid #414f6b; }
+  color: #414f6b; }
 
 .layer-image {
   background: url("../../images/Image.png") 40% 0%/cover;
@@ -102,7 +99,8 @@
 .tab-info {
   margin: 7em 0 0 8em;
   background-color: rgba(255, 255, 255, 0.7);
-  width: 23em; }
+  width: 23em;
+  padding-bottom: 1.5em; }
 
 .tab-head {
   font-size: 42.7px;
@@ -139,16 +137,6 @@ footer {
 .affix {
   top: 0;
   width: 100%; }
-
-a:hover {
-  text-decoration: none;
-}
-
-@media screen and (max-width: 991px) {
-  .hide-nav{
-    display: none;
-  }
-}
 
 @media screen and (max-width: 480px) {
   .custom-heading {
