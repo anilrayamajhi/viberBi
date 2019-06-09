@@ -271,7 +271,7 @@ footer {
 		right: 0;
 		bottom: 0;
 		left: 0;
-		z-index: 1;
+		z-index: -55;
 		margin: auto;
 		opacity: 0;
 		transition: opacity .5s;
@@ -322,6 +322,12 @@ footer {
   -webkit-animation:spin 2s linear infinite;
   -moz-animation:spin 2s linear infinite;
   animation:spin 2s linear infinite;
+}
+
+@media screen and (max-width: 768px) {
+  .custom-heading {
+    margin: -2.9em 0 0 3.5em;
+  }
 }
 
 
