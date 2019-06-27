@@ -21,6 +21,10 @@
     color: #000000;
     font-weight: 700; }
 
+.layer-image {
+  background: url("../../images/Image.png") 40% 0%/cover;
+  height: 63em; }
+
 .background-img-2 {
   background: url("../../images/peak.png") 40% 37%/cover;
   height: 57em;
